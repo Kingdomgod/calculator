@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function calculate(){
+    var int=document.getElementById("demo").value 
+    var evaluation=eval(int) 
+    console.log(evaluation)
+    document.getElementById("diff").innerHTML=evaluation
+    }
+
+
+    
+</script>
+<body>
+    
+<input id="demo" type="text">
+<button onclick="calculate()">calculate</button>
+<p id="diff"></p>
+</body>
+</html>
